@@ -29,6 +29,9 @@ gem 'figaro'
 
 gem 'bootstrap-sass'
 
+gem 'cloudinary'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password

@@ -6,6 +6,13 @@
    <% end %>
 </ul>
 
+
+<%= cl_image_tag("sample",
+      width: 400, height: 300, crop: :fill) %>
+
+<%= cl_image_tag("gew3hpg6gzqe0isf5kfp",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
   <%= link_to "Add a new Cocktail", new_cocktail_path, class: 'btn btn-primary' %>
 
 
